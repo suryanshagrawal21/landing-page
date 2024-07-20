@@ -1,0 +1,101 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #101010;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+header, footer {
+    background:#acb3f6;
+    color: #0e0a0a;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1, footer h2 {
+    margin-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav a {
+    color: #030c0e;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #03291a5f;
+}
+
+.hero {
+    background: url("image1.png") center/cover no-repeat;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000;
+    margin-top: 30px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.feature {
+    flex: 1;
+    background: #b3acf6;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(70, 25, 25, 0.1);
+    text-align: center;
+}
+
+.feature h2 {
+    margin-bottom: 10px;
+}
+
+.feature p {
+    color: #302903;
+}
+
+footer {
+    margin-top: 50px;
+}
